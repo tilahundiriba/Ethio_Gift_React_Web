@@ -63,10 +63,10 @@ function Footer() {
                 <div className="social-media-wrap">
                     <div className="footer-logo">
                         <Link to='/' className="social-logo">
-                            Ethio
+                            Ethio Gift
                         </Link>
                     </div>
-                    <small className="website-rights"> Ethio © 2024 Devloped By Tilahun Diriba</small>
+                    <small className="website-rights"> Ethio Gift © 2024 Developed By Tilahun Diriba at Wolkite University.</small>
                     <div className="social-icons">
                         <Link className='social-icon-link facebook'
                             to='/'
@@ -111,4 +111,4 @@ function Footer() {
     )
 }
 
-export default Footer
+export default Footer;

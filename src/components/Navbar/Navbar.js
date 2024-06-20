@@ -23,7 +23,7 @@ function Navbar() {
             <nav className="navbar">
                 <div className="navbar-container">
                     <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-                         Ethiopia 
+                         Ethio Gift 
                     </Link>
                     <div className="menu-icon" onClick={handleClick}>
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
@@ -42,10 +42,24 @@ function Navbar() {
                                 Products</Link>
                         </li>
                         <li className="nav-item">
+                            <Link to='/cultures' className="nav-links" onClick={closeMobileMenu}>
+                                Cultures</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link to='/man-mades' className="nav-links" onClick={closeMobileMenu}>
+                                Man-mades</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link to='/natures' className="nav-links" onClick={closeMobileMenu}>
+                                Natures</Link>
+                        </li>
+                        <li className="nav-item">
                             <Link to='/sign-up' className="nav-links-mobile" onClick={closeMobileMenu}>
                                 Sign Up</Link>
                         </li>
+                        
                     </ul>
+                    
                     <div>
                         {button && <Button buttonStyle='btn--outline' Children="SIGN UP"/>}
                     </div>
